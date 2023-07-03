@@ -36,6 +36,8 @@ install.packages(c("rstan", "StanHeaders"),
 
 To compile an R package from source on Windows, you need Rtools, but you will have that if you followed the previous step.
 
+If you are using a Mac and encounter problems at this stage, you probably need to install Xcode Command Line tools, see e.g. https://www.makeuseof.com/install-xcode-command-line-tools/
+
 The time taken to compile and install these R packages will be a lot longer than normally required to install R packages, but it should be 10 minutes or less depending on the power of your device.
 
 

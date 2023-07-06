@@ -60,3 +60,7 @@ data_df <- tibble(x = rnorm(10))
 
 M <- brm(x ~ 1, data = data_df)
 ```
+
+## A possible fallback
+
+[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/mark-andrews/intro_bda_qub/HEAD?urlpath=rstudio)
